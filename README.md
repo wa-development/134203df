@@ -82,7 +82,7 @@ You are required to build a web page/view, to show the various projects in the d
 - Project Name: This should simply be the name of the project
 - Start Date: Start date of the project
 - End Date: End date of the project
-- Employees: A comma-seperated list of the employees First name and Surnames that was involved in the project.
+- Employees: A comma-seperated list of the employees first name and surname that was involved in the project.
 - Cost: Cost of the project
 
 #### 2.2 Note: Be sure to include projects that also do not have any employees.
