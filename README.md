@@ -1,6 +1,6 @@
 # Index
 ## A) Installation
-## B) Requirements
+## B) NB: Requirements & Constraints
 ## C) What we're looking for
 ## D) Notes
 ## E) NB: Submiting Your Results
@@ -23,12 +23,21 @@
 
 3.2 Run the file **interview.sql** in the **database** folder, in a SSMS to create the database required for this project.
 
-# B Requirments
+# B Requirments & Constraints
 
 The application is a simple employee and project management application. The database has primary and foreign key column represented in the tables, to reflect the relationship between different entities in the system.
 
 You are required to build a website/web application, that allows a user to add an employee to the database. 
 You are required to build a web page/view, to show the various projects in the database.
+
+### The front-end for the project MUST BE created using one or a combination of the below technologies/programming languages:
+- HTML / CSS / SASS / LESS / JAVASCRIPT
+- Asp.Net or Asp.Net Core
+- Mvc (core or full framework)
+- ReactJS
+
+## The back-end for the project MUST USE:
+- C# (full framework or core)
 
 # C What we're looking for:
 
