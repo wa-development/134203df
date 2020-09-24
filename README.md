@@ -36,7 +36,7 @@ You are required to build a web page/view, to show the various projects in the d
 - Mvc (core or full framework)
 - ReactJS
 
-## The back-end for the project MUST USE:
+### The back-end for the project MUST USE:
 - C# (full framework or core)
 
 # C What we're looking for:
