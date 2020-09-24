@@ -47,14 +47,14 @@ You are required to build a web page/view, to show the various projects in the d
 
 - Concepts promoting high cohesion and loosely coupling like IOC.
 
-- Knowledge of asp.net frameworks and external frameworks, like asp.net controls, forms authentication and ORMS.
+- Knowledge of using nuget packages / nodejs libraries where applicable.
 
 - Completing the project is always important.
 
 # D Notes:
 
 - The application is a simple employee and project management application.
-- The database should be easy enough to look over and figure out.
+- The database should be easy enough to review and understand.
 - If you're uncertain about a requirement, continue, and explain your approach taken via code comments and/or a followup document/email.
 
 # E Submiting Your Results:
