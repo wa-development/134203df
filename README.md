@@ -1,9 +1,10 @@
 # Index
 ## A) Installation
-## B) What we're looking for
-## C) Notes
-## D) NB: Submiting Your Results
-## E) Test
+## B) Requirements
+## C) What we're looking for
+## D) Notes
+## E) NB: Submiting Your Results
+## F) Test
 
 # A Installation:
 1. Download and install Sql Server Express (any edition + 2015)
@@ -22,13 +23,11 @@
 
 3.2 Run the file **interview.sql** in the **database** folder, in a SSMS to create the database required for this project.
 
-4. Run the project:
+# B Requirments
 
-4.1 Open Interview.sln, and make sure to build, run/debug the application, to ensure everything is running smoothly.
+The application is a simple employee and project management application. The database has primary and foreign key column represented in the tables, to reflect the relation between different entities in the system.
 
-4.2 The project should run fine within VS2015, however when using VS2017/vs2019, the application my not build due to a msbuild csc issue between previous versious. Open the project properties > and change the CPU build configuration from default/any to X64 (or X86) > build and run > Revert back to default > Build and Run again. Fix Video: https://recordit.co/9aWuqtfCj2
-
-# B What we're looking for:
+# C What we're looking for:
 
 - Good object-orientated design, considering concepts like SOLID principles, reusability etc.
 
@@ -40,20 +39,20 @@
 
 - Completing the project is always important.
 
-# C Notes:
+# D Notes:
 
 - The application is a simple employee and project management application.
 - The database should be easy enough to look over and figure out.
 - If you're uncertain about a requirement, continue, and explain your approach taken via code comments and/or a followup document/email.
 
-# D Submiting Your Results:
+# E Submiting Your Results:
 
 - This is a 4 hour test, and the submission has to be done within the 4 hour time frame. The project should be made available to you with an hour extra to allow to for setting up your envrionment and project.
 - Submit the test by either: 1) Emailing the results. 2) Uploading it to a shared folder (Google Drive, DropBox etc) and sharing it with the Webafrica co-ordinator. (We advise you Zip your project)
 - The submitted result should include: 1) The entire .net project file. 2) An scripted export your database script.
 - This git repository is setup to be read-only, so you won't be to commit back to the repository.
 
-# E Test:
+# F Test:
 ### 1. Add an Employee
 
 
