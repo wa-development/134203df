@@ -25,7 +25,10 @@
 
 # B Requirments
 
-The application is a simple employee and project management application. The database has primary and foreign key column represented in the tables, to reflect the relation between different entities in the system.
+The application is a simple employee and project management application. The database has primary and foreign key column represented in the tables, to reflect the relationship between different entities in the system.
+
+You are required to build a website/web application, that allows a user to add an employee to the database. 
+You are required to build a web page/view, to show the various projects in the database.
 
 # C What we're looking for:
 
@@ -47,7 +50,7 @@ The application is a simple employee and project management application. The dat
 
 # E Submiting Your Results:
 
-- This is a 4 hour test, and the submission has to be done within the 4 hour time frame. The project should be made available to you with an hour extra to allow to for setting up your envrionment and project.
+- This is a 8 hour test, and the submission has to be done within the 8 hour time frame. The project should be made available to you with an hour extra to allow to for setting up your envrionment and project.
 - Submit the test by either: 1) Emailing the results. 2) Uploading it to a shared folder (Google Drive, DropBox etc) and sharing it with the Webafrica co-ordinator. (We advise you Zip your project)
 - The submitted result should include: 1) The entire .net project file. 2) An scripted export your database script.
 - This git repository is setup to be read-only, so you won't be to commit back to the repository.
@@ -55,19 +58,25 @@ The application is a simple employee and project management application. The dat
 # F Test:
 ### 1. Add an Employee
 
-
-- **NB: The application receives input from 2 entry points, a console application and webform, you will have to cater for receiving from both.**
-
-
 #### 1.1 Add a new column to the dbo.Employee table called DateOfBirth
-#### 1.1.1 Alter the web form to capture the date of birth.
-#### 1.1.2 Alter the console application to accept a date of birth input.
 
-#### 1.2 Allow the "Add Employee" interfaces (i.e. both the web application and console application), to store an employee to dbo.Employee table.
+#### 1.1.1 Create a console application, that accepts inputs for adding an employee, and store the data in the "Employee" table.
+
+#### 1.1.2 Create a web page (/addemploy.html | .aspx | etc) that accepts inputs for adding an employee, and store the data in the "Employee" table.
 
 ### 2. View projects</h3>
-#### 2.1 On the View projects page, read the projects from the dbo.Project table, displaying them in the list view.
-#### 2.2 The Employees column is comma seperated list of all employees who has worked on those projects. Display these as well, and ensure the projects without employees also gets viewed.
+
+#### 2.1 Create a web page to view projects (/viewprojects.html | .aspx | etc), that shows the following columns:
+
+|Project Name|Start Date|End Date|Employees|Cost|
+
+- Project Name: This should simply be the name of the project
+- Start Date: Start date of the project
+- End Date: End date of the project
+- Employees: A comma-seperated list of the employees First name and Surnames that was involved in the project.
+- Cost: Cost of the project
+
+#### 2.2 Note: Be sure to include projects that also do not have any employees.
 
 ### 3. Business Calculation </h3>
 
@@ -77,4 +86,4 @@ The application is a simple employee and project management application. The dat
 #### c) Tester: 1000
 #### d) Business Analyst: 4500
 
-#### 3.1 Calculate the cost of each of the projects, **including the new business rule** costs. Display the result in the ViewProjects.aspx, "cost" column.
+#### 3.1 Calculate the cost of each of the projects, **including the new business rule** costs. Display the result in the viewprojects, "cost" column.
