@@ -96,3 +96,14 @@ You are required to build a web page/view, to show the various projects in the d
 #### d) Business Analyst: 4500
 
 #### 3.1 Calculate the cost of each of the projects, **including the new business rule** costs. Display the result in the viewprojects, "cost" column.
+
+### 4. Large File Processing & Bulk Insertion </h3>
+
+#### Create a new table in the database called [ProjectLocations]. Add the colums Id|Name|Location|. Create a console application that will: 
+#### a) Download the big file from https://www.webafrica.co.za/includes/fibregeolocation.handler.php?cmd=sources&polygon=1
+#### b) Extract the data from the json file, and extract the data in Id, Name, Location in each entry
+#### c) Do a bulk insert into the table [ProjectLocations]
+#### 
+#### We are looking at the memory allocation of your console application and the time it takes to do your inserts.
+
+### Goodluck
